@@ -1,0 +1,2 @@
+Este código obtém dados climáticos da cidade de Adamantina para um intervalo de 7 dias, a partir de hoje, utilizando a API da Visual Crossing. Ele constrói a URL com as informações de cidade e datas, baixa os dados 
+em formato CSV e cria uma pasta local para salvar os arquivos. Em seguida, gera três arquivos CSV: um com os dados brutos, outro com as temperaturas mínima, média e máxima, e outro com descrições das condições climáticas.
