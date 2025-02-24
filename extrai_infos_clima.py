@@ -22,7 +22,7 @@ dados = pd.read_csv(URL)
 print(dados.head())
 
 #caminho para a geração do CSV - Aletrar se usar em outro PC
-file_path = r"C:\Users\Microsoft\Documents\PYTHON\extra-_dados_climaticos\semana01"
+file_path = r"C:\Users\Microsoft\Documents\PYTHON\extra-_dados_climaticos\semana02"
 os.mkdir(file_path)
 
 dados.to_csv(file_path + 'dados_brutos.csv')
