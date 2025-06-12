@@ -14,7 +14,7 @@ with DAG(
 
     tarefa_1 = BashOperator(
         task_id = 'cria_pasta',
-        bash_command = 'mkdir -p "/home/millenagena/Documents/airflowalura/semana={{data_interval_end.strftime("%Y-%m-%d")}}"'
+        bash_command = 'mkdir -p "/C:\Users\Microsoft\Documents\PYTHON\extra-_dados_climaticos/semana={{data_interval_end.strftime("%Y-%m-%d")}}"'
     )
 
     def extrai_dados(data_interval_end):
